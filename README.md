@@ -9,9 +9,10 @@
 
 #### Used Media Qeuries to make Mobile Resposive 
 #### Incorporated @Keyframes to add aniamations 
-#### Incorporated Font Awesome to linke for Facebook , Instagram , and Git Hub
+#### Incorporated Font Awesome to links for Facebook , Instagram , and Git Hub
 #### Created a Resume button that brings you to a coming soon page from the web
 #### All Nav Bar links to page sections 
+#### Comments are made throughout entire code show sections on both html and css files 
 
 
 ####  CopyWrite Webite(coming soon ) URL: https://s3.amazonaws.com/ixact-production-marketing-morris/wp-content/uploads/2018/03/Coming-Soon.jpg
