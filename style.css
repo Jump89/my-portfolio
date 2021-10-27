@@ -56,7 +56,7 @@ li a{
 
 .image-container {
     position: relative;
-    background-image: url(image/Marciothrown.jpg);
+    background-image: url(./image/Marciothrown.jpg);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -122,7 +122,7 @@ li a{
     width: 100%;
     height: auto; 
     position: relative;
-    background-image: url(image/Superb_HD_Laptop_Background_Wallpaper.jpeg);
+    background-image: url(./image/Superb_HD_Laptop_Background_Wallpaper.jpeg);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -158,7 +158,7 @@ li a{
     box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 50px;
-    background-image: url(/image/runbuddy.png);
+    background-image: url(./image/runbuddy.png);
     background-size: cover;
     background-position: center;
 }
@@ -184,7 +184,7 @@ li a{
     box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 50px;
-    background-image: url(image/do-any-coding-in-html-javascript-jquery.png);
+    background-image: url(./image/do-any-coding-in-html-javascript-jquery.png);
     background-size: cover;
     background-position: center;
 }
@@ -261,7 +261,7 @@ li a{
 .about-image {
     height: 450px;
     width: 400px;
-    background-image: url(/image/hero-img\ .jpg);
+    background-image: url(./image/hero-img\ .jpg);
     background-size: cover;
     background-position: center;
 }
@@ -328,7 +328,7 @@ li a{
         box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
         border-radius: 10px;
         margin: 50px;
-        background-image: url(/image/runbuddy.png);
+        background-image: url(./image/runbuddy.png);
         background-size: cover;
         background-position: center;
        
@@ -342,7 +342,7 @@ li a{
         box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
         border-radius: 10px;
         margin: 50px;
-        background-image: url(image/html_css_js.jpeg);
+        background-image: url(./image/html_css_js.jpeg);
         background-size: cover;
         background-position: center;
     }
@@ -360,7 +360,7 @@ li a{
         margin-top: 20px;
         height: 300px;
         width: 225px;
-        background-image: url(/image/hero-img\ .jpg);
+        background-image: url(./image/hero-img\ .jpg);
         background-size: cover;
         background-position: center;
     }
