@@ -11,20 +11,42 @@
     ></script>
 </head>
 <body>
-    <!-- desktop nav bar -->
+    <!-- Desktop nav bar -->
     <section id="nav">
         <div class="nav-bar">
             <div class="links">
                 <ul>
-                    <li><a href="name" id="name">Marcio Ramos</a></li>
-                    <li><a href="projects" id="project">Projects</a></li>
-                    <li><a href="aboutme" id="about">About</a></li>
-                    <li><a href="contactme" id="contact">Contact</a></li>
+                    <li><a href="#name" id="name">Marcio Ramos</a></li>
+                    <li><a href="#projects" id="projects">Projects</a><li>
+                    <li><a href="#aboutme" id="about">About</a></li>
+                    <li><a href="#contactme" id="contact">Contacts</a></li>
                 </ul>
             </div>
         </div>
     </section>
-    <!--End of Nav bar-->
+    <!--End of Desktop Nav bar-->
+
+    <!-- Mobile Nav Bar -->
+    <section id="mobile-nav"> 
+        <div class="mobile-nav-bar">
+            <div class="links">
+                <ul>
+                    <li>
+                        <a href="#" id="name"><i class="fas fa-home"></i></a>
+                    </li>
+                    <li>
+                        <a href="#projects" id="projectss"><i class="fas fa-folder"></i></a>
+                    </li>
+                    <li>
+                        <a href="#aboutme" id="about"><i class="fas fa-user"></i></a>
+                    </li>
+                    <li>
+                        <a href="#contactme" id="contact"><i class="fas fa-envelope-open-text"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
     <!-- Hero section-->
     <section id="hero">
@@ -37,7 +59,7 @@
                 <span class="firstWord">Solving</span><br>Problems & Creating
                 <br>Solutions
             </h1>
-            <a href="#" class="resume-cta"><span class="resume-text">Resume</span></a>
+            <a href="https://s3.amazonaws.com/ixact-production-marketing-morris/wp-content/uploads/2018/03/Coming-Soon.jpg" class="resume-cta"><span class="resume-text">Resume</span></a>
         </div>
     </section>
     <!-- End of Hero -->
@@ -45,16 +67,19 @@
     <!--Project section-->
     <section id="projects">
         <div class="project-container">
+            <div class="background-img"></div>
             <div class="project-header">Projects</div>
             <div class="projects">
                 <div class="project-item">
                     <div class="first-website">
-                        <h2 class="name">Frist Website</h2>
-                        <div class="content">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, excepturi? Odio, provident eaque temporibus dicta tempora commodi sapiente a dolorem harum, ducimus sequi adipisci excepturi.</p>
+                        <div class="text-container">
+                            <h2 class="name">Frist Website</h2>
+                            <div class="content">
+                            <p>Runbuddy , was the first website I created while taking my bootcamp course. It was a website about training. With this website it is mobile responsive, has a policy page, a sign up form,  contact form and a map from Google Maps on the landing page. I used HTML and advanced CSS to construct this page. Take a look.</p>
+                            </div>
                         </div>
                         <button class="button">
-                            <a href="https://jump89.github.io/runbuddy-real/">
+                            <a href="https://jump89.github.io/runbuddy-real/" class="button-text">
                                 <h3>View Runbuddy</h3>
                             </a>
                         </button>
@@ -63,16 +88,31 @@
 
                 <div class="project-item">
                     <div class="password-project">
-                        <h2 class="name">Password Generator</h2>
-                        <div class="content">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, excepturi? Odio, provident eaque temporibus dicta tempora commodi sapiente a dolorem harum, ducimus sequi adipisci excepturi.</p>
-                        </div>
+                        <div class="text-container">
+                            <h2 class="name">Password Generator
+                            </h2>
+                            <div class="content">
+                            <p>The password generator was the thrid project from my bootcamp. Here we utilized javascript to make a password generator. It may look simple but it was very challenging. Take a look. </p>
+                            </div>
+                        </div>    
                         <button class="button">
-                            <a href="#">
+                            <a href="#" class="button-text">
                                 <h3>View Password Generator</h3>
                             </a>
                         </button>
                     </div>
+
+                    <div class="project-item">
+                        <div class="skills">
+                            <div class="text-container">
+                                <h2 class="name">Skills
+                                </h2>
+                                <div class="content">
+                                <p>Currently Honing My Skills In Html,Css,JAVA Script,Jqeury.</p>
+                                </div>
+                            </div>    
+    
+                        </div>
                 </div>
             </div>
         </div>
@@ -81,16 +121,16 @@
     <!-- ENd of project Section-->
 
     <!--About Section-->
-    <section class="aboutme">
+    <section id="aboutme">
         <div class="about-container">
-            <div class="about-section">
-                <div class="img-container">
+                <div class="about-section">
+                 <div class="img-container">
                     <div class="about-image"></div>
+                 </div>
+                    <div class="about-text">
+                    Born on the Cape Verde Islands. Marcio grew up in Connecticut, since then he moved to New York in 2010. Marcio has worked in the hospitality industry for over 20 years, he has worked in cocktail bars all around the city . Harlem has been his home. He is now the proud owner of his own cocktail bar called <a href="https://www.thehoneywellnyc.com/">The Honey Well</a>. He now wants to dive deep and learn front end web development. He has started his journey stay tuned to see where this new found passion takes him.
+                    </div>
                 </div>
-                <div class="about-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ipsam sequi molestiae obcaecati illo ratione facilis architecto enim, ab ipsa sapiente doloribus perspiciatis sed autem repellendus! Voluptatem aliquid soluta recusandae.
-                </div>
-            </div>
         </div>
     </section>
     <!--End Of About Section-->
@@ -102,7 +142,7 @@
                 <a href="https://www.facebook.com/marcio.ramos.5680"><i class="fab fa-facebook-square"></i></a>
             </div>
             <div class="ig">
-                <a href="#"><i class="fab fa-instagram-square"></i></a>
+                <a href="https://www.instagram.com/callmemilord/"><i class="fab fa-instagram-square"></i></a>
             </div>
             <div class="gh">
                 <a href="https://github.com/Jump89"><i class="fab fa-github"></i></a>
