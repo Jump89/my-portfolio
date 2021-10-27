@@ -137,6 +137,7 @@ li a{
     align-items: center;
     justify-content: center;
     margin: 0;
+    color: limegreen;
 }
 
 .projects {
@@ -144,6 +145,7 @@ li a{
     align-items: center;
     justify-content: center;
     flex-flow: wrap;
+   
 }
 
 .first-website {
@@ -152,7 +154,7 @@ li a{
     background: #fff;
     position: relative;
     box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
+    border-radius: 15px;
     margin: 50px;
     background-image: url(./image/runbuddy.png);
     background-size: cover;
